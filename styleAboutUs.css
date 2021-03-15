@@ -1,0 +1,32 @@
+.nav{
+    background-color: green;
+}
+  /* change border radius for the tab , apply corners on top*/
+  
+.nav-tabs > li > a {
+    color: white;
+  }
+.nav-tabs> li > a:visited{
+    background-color: #abf3d2 !important;
+}
+.tab-content {
+    background-color: #abf3d2;
+    padding : 2% 10%;
+  }
+.img-thumbnail{
+    width:  200px;
+    height: 500px;
+    object-fit: cover;
+}
+.thumbnail{
+  float:right;
+}
+.single-team{
+  text-align: center;
+}
+  
+  
+  
+  
+  
+  

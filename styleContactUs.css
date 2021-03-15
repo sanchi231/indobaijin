@@ -1,0 +1,35 @@
+.nav{
+    background-color:lightcoral;
+    
+}
+  /* change border radius for the tab , apply corners on top*/
+  
+.nav-tabs > li > a {
+    color: white;
+  }
+.nav-tabs> li > a:active{
+    background-color: #abf3d2 !important;
+}
+.tab-content {
+    background-color: #abf3d2;
+    padding : 2% 10%;
+  }
+  
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+  
+  
+  
+  
+  
