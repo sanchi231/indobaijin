@@ -110,7 +110,7 @@ li.contact-us{
 }
 /* homepage navbar */
 .home-navbar {
-    margin-top: -55px;
+    margin-top: -15px;
     margin-bottom: -3px;
     background-color: rgb(231, 60, 60);
     width: 100%;
@@ -145,7 +145,7 @@ li.contact-us{
 
 
 /* section */
-.main img{
+.homepage-section img{
     height: auto;
     width: 100%;
 
@@ -197,8 +197,15 @@ li.contact-us{
 
 #careers-section {
     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-	background-color: #e3feeb;;
-  }
+	background-color: #e3feeb;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+    
+ }
 
 #colorstrip1 {
     width: 100%;
@@ -207,24 +214,123 @@ li.contact-us{
     margin-top: -15px;
 }
 
-.main {
+.main ul {
 	position: relative;
 	margin-top: 45px;
+    padding: 20px;
+	list-style-type: circle;
+    width: 710px;
+    padding-left: 150px;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
 }
 
+.main li{
+    font-family: Helvetica;
+    line-height: 1.42857143;
+    font-size: 14px;
+    margin-top:-60px;
+    padding-bottom: 50px;
+}
+
+
+
+.hi{
+    color: #585656;
+    margin-bottom: 15px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 16px;
+    padding-left: 150px;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.para{
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 150px;
+    padding-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 12px;
+}
+
+.career-query {
+    font-size: 18px;
+    font-family: 'Times New Roman',Verdana, 'Geneva', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
 .rgt-img {
 	float: right;
-	height: 270px;
+	height: 200px;
 	margin-left: 10px;
-	margin-top: 6px;
+    margin-top: -65px;
+    margin-right: 100px;
+    float: right;
 }
 
 .it{
-	margin-top: 40px;
-	margin-bottom: 10px; 
+	margin-top: 20px;
+	margin-bottom: 5px; 
     padding-bottom: 5px;
+    padding-left: 150px;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
+.form-horizontal{
+    
+    margin-top: -10px;
+	margin-bottom: 0px; 
+    padding-bottom: 5px;
+    padding-left: 150px;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.form-group label{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+.form-control {
+    width: 300px;
+    height: 34px;  
+    border-radius: 4px; 
+    border: 0.5px #ccc solid;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: inset 0 1px 1px rgba(37, 24, 226, 0.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.description {
+    height: 54px;
+}
+
+.submit-btn {
+    padding: 8px 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 0.5px #ccc solid;
+}
 /*PRODUCT PAGE - SAKSHI*/
 
 .product-heading h3 {
